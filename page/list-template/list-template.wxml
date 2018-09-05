@@ -1,0 +1,17 @@
+<!--page/list-template/list-template.wxml-->
+<template name="tmpContainer">
+  <view class='tmpCon'>
+    <view class='avatar_img'>
+      <image src='{{avatar}}'></image>
+      <text>{{date}}</text>
+    </view>
+    <text class='compay'>{{title}}</text>
+    <image class='pic' src='{{detail_img}}'></image>
+    <view class='icon_img'>
+      <image src='/images/icon/chat.png'></image>
+      <text>88</text>
+      <image src='/images/icon/none-star.png'></image>
+      <text>66</text>
+    </view>
+  </view>
+</template>

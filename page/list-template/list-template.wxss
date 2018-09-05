@@ -1,0 +1,36 @@
+/* page/list-template/list-template.wxss */
+.tmpCon{
+  display: flex;
+  flex-direction: column
+}
+.avatar_img ,.icon_img {
+  margin: 10rpx;
+}
+.avatar_img image{
+  width : 60rpx;
+  height: 60rpx;
+  vertical-align: middle
+}
+.avatar_img text{
+  font-size: 30rpx;
+  margin-left: 20rpx
+}
+.compay{
+  font-size: 36rpx;
+  margin: 0 10rpx 10rpx;
+  font-weight: 700
+}
+.pic{
+  width : 100%;
+  height: 400rpx
+}
+.icon_img image{
+  width : 32rpx;
+  height : 32rpx; 
+  margin-right : 10rpx;
+  vertical-align: middle
+}
+.icon_img text{
+ font-size: 28rpx;
+ margin-right: 10rpx
+}

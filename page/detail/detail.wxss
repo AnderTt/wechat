@@ -1,0 +1,58 @@
+/* page/detail/detail.wxss */
+.detailContainer{
+  display: flex;
+  flex-direction: column
+}
+.header_img{
+  width : 100%;
+  height: 460rpx
+}
+.avatar_img {
+  padding: 10rpx
+}
+.avatar_img image{
+  width : 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.avatar_img text {
+  font-size: 36rpx;
+  margin-left: 10rpx
+}
+.company{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-left: 10rpx
+}
+.collectin_share_container{
+  position: relative
+}
+.collectin_share{
+  float: right;
+  margin-right: 20rpx;
+}
+.collectin_share image{
+  width : 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+.line{
+  width: 90%;
+  height: 1rpx;
+  position: absolute;
+  left: 5%;
+  background-color: #eee;
+  top : 45rpx;
+  z-index: -1
+}
+.detailContainer button{
+  font-size: 36rpx;
+  width: 300rpx;
+  line-height: 80rpx;
+  margin-bottom: 10rpx;
+}
+.content{
+  font-size: 28rpx;
+  text-indent: 28rpx;
+  padding: 10rpx
+}

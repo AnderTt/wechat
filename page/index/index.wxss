@@ -1,0 +1,38 @@
+/* page/index/index.wxss */
+page{
+  background-color: #C5E000;
+  height: 100%
+}
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.header_img{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin : 100rpx 0
+}
+.useName{
+  font-size: 28rpx;
+  margin-top : 300rpx;
+}
+.goStudy{
+  margin : 100rpx 0;
+  font-size: 24rpx;
+  width : 220rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border: 1rpx solid #eee;
+}
+.btn{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin : 100rpx 0;
+  font-size: 24rpx;
+  line-height: 200rpx;
+  text-align: center
+}

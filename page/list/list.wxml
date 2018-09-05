@@ -1,0 +1,23 @@
+<!--page/list/list.wxml-->
+<import src="/page/list-template/list-template.wxml"/>
+<view class='carousel-container'>
+  <swiper class='swiper_container' indicator-dots autoplay indicator-color="#eee" indicator-active-color="#489B81" >
+    <block>
+      <swiper-item>
+        <image src="/images/detail/carousel/01.jpg" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/02.jpg" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/03.jpg" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/04.jpg" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view wx:for="{{tmpData}}" wx:key="{{index}}" bindtap='goDetail' data-index="{{index}}">
+    <template is="tmpContainer" data="{{...item}}"/>
+  </view>
+</view>
